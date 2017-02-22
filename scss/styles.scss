@@ -1,6 +1,16 @@
 @import 'google-homepage';
 
+// First Frame
+img{
+    width:40%;
+    transform: scale(.25) rotate(0);
+    opacity: 40%;
+    
+    transition: transform 1s;
+}
 
-body{
-    background: white;
+// Last Frame
+img:hover{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
 }
