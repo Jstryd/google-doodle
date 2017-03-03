@@ -3,6 +3,8 @@
 
 #stage {
   background: white;
+  border-radius: 10%;
+  opacity: .95;
   height: 300px;
   width: 600px;
   overflow: hidden;
@@ -20,6 +22,35 @@ h2{
   left: 20 px;
 }
 
+// Random Background
+
+$bg0 : "http://www.goliath.com/wp-content/uploads/2016/10/Pokemon-We-Really-Want-to-Eat.jpg";
+$bg1 : "http://digitalspyuk.cdnds.net/16/08/1600x800/landscape-1456483171-pokemon2.jpg";
+$bg2 : "http://www.dailynintendo.nl/wp-content/uploads/2016/03/151-pokemon.jpg";
+
+.bg0 {
+  background: url($bg0) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg1{
+  background: url($bg1) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg2{
+  background: url($bg2) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 /* DO NOT EDIT BELOW THIS LINE */
