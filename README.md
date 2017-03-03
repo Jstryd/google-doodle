@@ -2,10 +2,10 @@
 
 ## Brainstorming Ideas
 
-* Come up with ideas
+Pokemon Day!
 
 ## Research ideas
 
-* Links
-* Movies
-* Presentation
+There has to be a pikachu.
+
+Pokeballs? Maybe as the "o"s in Google?
