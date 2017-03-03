@@ -1,16 +1,26 @@
+// Grand Central Station
+
 @import 'google-homepage';
 
+
 // First Frame
-img{
-    width:40%;
-    transform: scale(.25) rotate(0);
-    opacity: 40%;
+img {
     
-    transition: transform 1s;
+    opacity: .5;
+    transform: scale(.25) rotate(0);
+    width: 40%;
+    
+    transition: transform .5s;
 }
 
 // Last Frame
-img:hover{
+img:hover {
     opacity: 1;
-    transform: scale(1) rotate(360deg);
+    transform: scale(1.5) rotate(180deg);
 }
+
+// First Frame
+
+
+// Last Frame
+
